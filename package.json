@@ -1,0 +1,35 @@
+{
+  "name": "coinsmart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack --progress --profile --colors && node ./dist/bundle.js",
+    "build": "webpack --progress --profile --colors",
+    "lint": "eslint ./src/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jluccisano/webpack-es6-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jluccisano/webpack-es6-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jluccisano/webpack-es6-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-eslint": "7.2.3",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "1.6.0",
+    "eslint": "4.5.0",
+    "eslint-loader": "1.9.0",
+    "prettier": "^1.13.4",
+    "prettier-eslint": "^8.8.1",
+    "webpack": "3.5.5"
+  }
+}
